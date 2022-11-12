@@ -1,38 +1,193 @@
 .App {
-  text-align: center;
+    margin-left: 15%;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-font {
+    font-weight: 600;
+    color: white;
+    margin: 0rem;
+    font-size: 115px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-link {
+    line-height: 9.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.delay15 {
+    animation-delay: 0.15s;
 }
 
-.App-link {
-  color: #61dafb;
+.delay30 {
+    animation-delay: 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.white {
+    color: white;
+}
+
+.red {
+    color: #ea0f1e;
+}
+
+.about:after {
+    content: 'Hello.';
+    background-color: black;
+}
+
+.about:hover:after {
+    content: 'About';
+    background-color: black;
+}
+
+.projects:after {
+    content: 'I am';
+    background-color: black;
+}
+
+.projects:hover:after {
+    content: 'Projects';
+    background-color: black;
+}
+
+.contact:after {
+    content: 'Magdi';
+    background-color: black;
+}
+
+.contact:hover:after {
+    content: 'Contact';
+    background-color: black;
+}
+
+.content {
+    transition: transform 0.2s ease;
+}
+
+.content:hover {
+    transform: translateX(15%);
+}
+
+.about-line {
+    width: 100%;
+    top: 70px;
+    z-index: -1;
+    left: 250px;
+    border-bottom: 10px solid white;
+    position: absolute;
+}
+
+.projects-line {
+    width: 100%;
+    top: 70px;
+    z-index: -1;
+    left: 250px;
+    border-bottom: 10px solid #ea0f1e;
+    position: absolute;
+}
+
+.contact-line {
+    width: 100%;
+    top: 70px;
+    z-index: -1;
+    left: 250px;
+    border-bottom: 10px solid #ea0f1e;
+    position: absolute;
+}
+
+.notify {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    background-color: #ea0f1e;
+    width: 100%;
+    bottom: 0;
+    animation: slide-up 0.8s forwards ease;
+    animation-delay: 4s;
+}
+
+.notify-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0.5rem;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0.5;
+        transform: translateX(-75%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 1;
+        transform: translateY(90%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .home-font {
+        font-size: 110px;
+        line-height: 8rem;
+    }
+    .about-line {
+        width: 80%;
+    }
+    .projects-line {
+        width: 80%;
+    }
+    .contact-line {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-font {
+        font-size: 100px;
+    }
+    .home-link {
+        line-height: 8.5rem;
+    }
+    .about-line {
+        width: 60%;
+    }
+    .projects-line {
+        width: 60%;
+    }
+    .contact-line {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-font {
+        font-size: 80px;
+    }
+    .home-link {
+        line-height: 7rem;
+    }
+    .about-line {
+        width: 0;
+    }
+    .projects-line {
+        width: 0;
+    }
+    .contact-line {
+        width: 0;
+    }
 }

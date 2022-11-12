@@ -1,0 +1,27 @@
+.logo {
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    position: fixed;
+    color: white;
+    right: 8vw;
+    top: 7vw;
+    font-weight: 600;
+    -webkit-backface-visibility: hidden;
+}
+
+.logo:before {
+    content: 'Magdi.';
+    position: absolute;
+    color: #ea0f1e;
+    top: 0;
+    left: 0;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.logo:hover:before {
+    width: 100%;
+}

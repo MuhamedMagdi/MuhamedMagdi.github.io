@@ -20,7 +20,7 @@ const About = () => {
             <Lines />
             <div className="info margin-bottom-extra slide-animate">
                 <div className="content-container">
-                    <h4 className="contetnt-title">About</h4>
+                    <h4 className="content-title">About</h4>
                     <p className="content-description">
                         Hi, I’m Mohamed Magdi. I’m a junior Backend developer with a passion for
                         learning new programming languages and developing innovative applications.
@@ -39,7 +39,7 @@ const About = () => {
                     />
                     <h4 className="content-title">Skills</h4>
                     <LocalImage images={tools} />
-                    <h4>Competitions</h4>
+                    <h4 className="content-title">Competitions</h4>
                     <ExternalLink links={competitions} />
                 </div>
             </div>

@@ -1,0 +1,12 @@
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.image {
+    width: 100px;
+    margin: 1rem;
+}

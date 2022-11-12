@@ -7,7 +7,7 @@ const LocalImage = (props) => {
                 <img
                     key={image.title}
                     className="image"
-                    src={require(`../../assets/media/${image.name}.jpg`)}
+                    src={require(`../../assets/images/${image.name}.jpg`)}
                     alt={image.title}
                     title={image.title}
                 />

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e622401a.css",
+    "main.css": "/static/css/main.0cee1193.css",
     "main.js": "/static/js/main.fa613971.js",
     "static/js/787.b7af92ad.chunk.js": "/static/js/787.b7af92ad.chunk.js",
     "static/media/Mohamed Magdi Mohamed.pdf": "/static/media/Mohamed Magdi Mohamed.9dbe32fcb81999db4f51.pdf",
@@ -22,12 +22,12 @@
     "static/media/typescript.jpg": "/static/media/typescript.e471d10a926e283acbba.jpg",
     "static/media/javascript.jpg": "/static/media/javascript.bda628f2304c5f31dfe5.jpg",
     "index.html": "/index.html",
-    "main.e622401a.css.map": "/static/css/main.e622401a.css.map",
+    "main.0cee1193.css.map": "/static/css/main.0cee1193.css.map",
     "main.fa613971.js.map": "/static/js/main.fa613971.js.map",
     "787.b7af92ad.chunk.js.map": "/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e622401a.css",
+    "static/css/main.0cee1193.css",
     "static/js/main.fa613971.js"
   ]
 }

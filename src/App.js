@@ -1,10 +1,17 @@
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { useAnalytics } from 'use-analytics';
 
 const App = () => {
-    const [canShow, setCanShow] = useState(true);
     require('./App.css');
+    const [canShow, setCanShow] = useState(true);
+    const location = useLocation();
+    const analytics = useAnalytics();
+    useEffect(() => {
+        analytics.page();
+    }, [location]);
+
     return (
         <HelmetProvider>
             <Helmet>

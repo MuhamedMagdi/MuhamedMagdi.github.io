@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Analytics from 'analytics';
-import googleAnalytics from '@analytics/google-analytics';
-import { AnalyticsProvider } from 'use-analytics';
 import './index.css';
 import App from './App';
 import About from './pages/about';
@@ -12,15 +9,6 @@ import Projects from './pages/projects';
 import ProjectID from './pages/projectID';
 import Error404 from './pages/error404';
 import reportWebVitals from './reportWebVitals';
-
-const analytics = Analytics({
-    app: 'awesome',
-    plugins: [
-        googleAnalytics({
-            measurementIds: 'G-94T0084H1R'
-        })
-    ]
-}); 
 
 const router = createBrowserRouter([
     {
@@ -50,10 +38,11 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <AnalyticsProvider instance={analytics}>
-            <RouterProvider router={router} />
-        </AnalyticsProvider>
+        <RouterProvider router={router} />
     </React.StrictMode>
 );
 
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

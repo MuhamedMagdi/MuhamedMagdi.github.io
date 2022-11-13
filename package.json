@@ -1,7 +1,7 @@
 {
     "name": "portofolio",
     "version": "0.1.0",
-    "homepage": "https://muhamedmagdi.github.io",
+    "homepage": "https://www.mohamedmagdi.live",
     "private": true,
     "dependencies": {
         "@analytics/google-analytics": "^1.0.5",

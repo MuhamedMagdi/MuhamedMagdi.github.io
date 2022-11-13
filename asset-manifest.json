@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0cee1193.css",
-    "main.js": "/static/js/main.fa613971.js",
+    "main.js": "/static/js/main.2c4723e2.js",
     "static/js/787.b7af92ad.chunk.js": "/static/js/787.b7af92ad.chunk.js",
     "static/media/Mohamed Magdi Mohamed.pdf": "/static/media/Mohamed Magdi Mohamed.9dbe32fcb81999db4f51.pdf",
     "static/media/postgresql.jpg": "/static/media/postgresql.7b01385411ecb6aa1df5.jpg",
@@ -23,11 +23,11 @@
     "static/media/javascript.jpg": "/static/media/javascript.bda628f2304c5f31dfe5.jpg",
     "index.html": "/index.html",
     "main.0cee1193.css.map": "/static/css/main.0cee1193.css.map",
-    "main.fa613971.js.map": "/static/js/main.fa613971.js.map",
+    "main.2c4723e2.js.map": "/static/js/main.2c4723e2.js.map",
     "787.b7af92ad.chunk.js.map": "/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0cee1193.css",
-    "static/js/main.fa613971.js"
+    "static/js/main.2c4723e2.js"
   ]
 }

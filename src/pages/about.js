@@ -35,8 +35,8 @@ const About = () => {
                     </p>
 
                     <p className="content-description">
-                        Currently, I’m interested in some technologies and tools like
-                        [Golang, gRCP, GraphQL, Bun, Astro, Prisma, ...]
+                        Currently, I’m interested in some technologies and tools like [Golang, gRCP,
+                        GraphQL, Bun, Astro, Prisma, ...]
                     </p>
                     <LocalLink
                         to={require('../assets/documents/Mohamed Magdi Mohamed.pdf')}

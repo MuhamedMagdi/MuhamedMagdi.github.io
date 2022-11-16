@@ -20,7 +20,7 @@ const analytics = Analytics({
             measurementIds: 'G-94T0084H1R'
         })
     ]
-}); 
+});
 
 const router = createBrowserRouter([
     {

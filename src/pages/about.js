@@ -24,7 +24,7 @@ const About = () => {
                     <p className="content-description">
                         Hi, I’m Mohamed Magdi. I’m a junior Backend developer with a passion for
                         learning new programming languages and developing innovative applications.
-                        Skilled in Node.js.
+                        Focusing on Node.js.
                     </p>
 
                     <p className="content-description">
@@ -32,6 +32,11 @@ const About = () => {
                         Engineering and participated in a couple of CTFs. I got a lot of skills by
                         doing it, like reading code that is not mine and understanding it, debugging
                         code, and seeing potential bugs by looking at the source code.
+                    </p>
+
+                    <p className="content-description">
+                        Currently, I’m interested in some technologies and tools like
+                        [Golang, gRCP, GraphQL, Bun, Astro, Prisma, ...]
                     </p>
                     <LocalLink
                         to={require('../assets/documents/Mohamed Magdi Mohamed.pdf')}

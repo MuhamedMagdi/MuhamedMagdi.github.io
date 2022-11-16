@@ -22,7 +22,7 @@ const ProjectID = () => {
             <Logo />
             <Hero title={project.title} />
             <Lines />
-            <div className="info margin-bottom-extra">
+            <div className="info margin-bottom-extra slide-animate">
                 <div className="content-container">
                     <h4 className="content-title">Description</h4>
                     <p className="content-description">{project.description}</p>

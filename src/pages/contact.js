@@ -20,7 +20,12 @@ const Contact = () => {
                     <h4 className="content-title">Contact</h4>
 
                     <p className="content-description">
-                        Feel free to reach out through any platforms bellow:
+                        I’m seeking out opportunities to collaborate with companies / individuals,
+                        so if you have a project in mind or you just want to chat, feel free to get in touch.
+                    </p>
+
+                    <p className="content-description">
+                        Reach out through any platforms below:
                     </p>
                     <ExternalLink links={contact} />
                 </div>

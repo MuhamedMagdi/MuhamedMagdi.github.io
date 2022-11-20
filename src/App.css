@@ -107,7 +107,7 @@
     width: 100%;
     bottom: 0;
     animation: slide-up 0.8s forwards ease;
-    animation-delay: 4s;
+    animation-delay: 1s;
 }
 
 .notify-text {
